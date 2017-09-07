@@ -1,17 +1,9 @@
 source 'https://rubygems.org'
+ruby '2.4.0'
 
-gem 'sinatra'
+gem 'sinatra', '2.0.0'
 # Template engines (css, js, html)
-gem 'sass'
-gem 'coffee-script'
-gem 'slim'
-# MongoDB
-#gem 'mongo'
-#gem 'bson_ext'
-# For HTML parsing
-#gem 'nokogiri'
-# For text messaging
-#gem 'nexmo'
-# For development
-gem 'sinatra-reloader'
-#gem 'debugger'
+gem 'sass', '3.5.1'
+gem 'coffee-script', '2,4,1'
+gem 'slim', '3.0.8'
+gem 'sinatra-reloader', '1.0'

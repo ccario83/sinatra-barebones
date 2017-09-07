@@ -1,4 +1,6 @@
-simple-app
-==========
+Sinatra/Bulma Barebones
+=========================
 
-A barebones Sinatra app to seed development. 
+To bootstrap a web app project.
+
+

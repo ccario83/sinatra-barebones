@@ -15,7 +15,13 @@ class App < Sinatra::Base
     
     # Route Handlers
     get '/' do
-        slim :"slim/index"
+        slim :"slim/index", :layout => :"slim/layout"
+    end
+
+    # 404 Error
+    not_found do
+      status 404
+      slim :"slim/404"
     end
 
 end
